@@ -1,3 +1,6 @@
-public class f{
-public f(){}
+package org.example.src;
+
+public class f {
+    public f() {
+    }
 }
