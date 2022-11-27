@@ -37,7 +37,7 @@ public class ButtonExample3 {
     public static ImageIcon setImageSize(){
         ImageIcon icon = new ImageIcon("src/main/java/org/example/src/jbutton/img.png");
         Image img = icon.getImage();
-        Image newImg = img.getScaledInstance(40, 40, Image.SCALE_SMOOTH);
+        Image newImg = img.getScaledInstance(26, 26, Image.SCALE_SMOOTH);
 
         return new ImageIcon(newImg);
     }
