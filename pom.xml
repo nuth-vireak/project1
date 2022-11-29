@@ -20,6 +20,16 @@
             <artifactId>flatlaf</artifactId>
             <version>2.6</version>
         </dependency>
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>flatlaf-extras</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <dependency>
+            <groupId>com.formdev</groupId>
+            <artifactId>svgSalamander</artifactId>
+            <version>1.1.4</version>
+        </dependency>
     </dependencies>
 
 </project>

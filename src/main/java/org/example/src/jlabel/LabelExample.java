@@ -5,6 +5,7 @@ import com.formdev.flatlaf.FlatDarculaLaf;
 import javax.swing.*;
 
 public class LabelExample {
+
     public static void main(String[] args) {
 
         try {
@@ -14,6 +15,8 @@ public class LabelExample {
         }
 
         JFrame frame = new JFrame("Label Example");
+
+
         JLabel firstLabel = new JLabel("First Label");
         JLabel secondLabel = new JLabel("Second Label");
 

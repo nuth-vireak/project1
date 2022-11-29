@@ -1,6 +1,7 @@
 package org.example.src.jlabel;
 
 import com.formdev.flatlaf.FlatDarculaLaf;
+import com.formdev.flatlaf.extras.FlatSVGIcon;
 
 import javax.swing.*;
 import java.net.UnknownHostException;
@@ -22,7 +23,7 @@ public class LabelExample2 {
         JLabel label = new JLabel();
         label.setBounds(100, 100, 300, 40);
 
-        JButton button = new JButton("Find IP");
+        JButton button = new JButton(new FlatSVGIcon("src/main/resources/back.svg"));
         button.setBounds(100, 150, 300, 40);
         button.addActionListener(e -> {
             String host = textField.getText();
