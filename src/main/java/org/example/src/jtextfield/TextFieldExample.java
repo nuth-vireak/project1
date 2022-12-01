@@ -14,7 +14,7 @@ public class TextFieldExample extends JFrame {
 
     public TextFieldExample() {
 
-        btnSubmit.setIcon(new FlatSVGIcon("src/main/resources/back.svg"));
+        btnSubmit.setIcon(new FlatSVGIcon("back.svg"));
     }
 
     public static void main(String[] args) {
