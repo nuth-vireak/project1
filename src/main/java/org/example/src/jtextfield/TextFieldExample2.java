@@ -1,10 +1,9 @@
 package org.example.src.jtextfield;
 
 import com.formdev.flatlaf.FlatDarculaLaf;
+import com.formdev.flatlaf.extras.FlatSVGIcon;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class TextFieldExample2 extends JFrame {
 
@@ -14,14 +13,43 @@ public class TextFieldExample2 extends JFrame {
     private JTextField textFieldResult;
     private JButton btnAddition;
     private JButton btnSubstraction;
+    private JLabel labelValueA;
+    private JLabel labelValueB;
+    private JLabel labelResult;
 
     public TextFieldExample2() {
 
-        btnAddition.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
+        btnAddition.setIcon(new FlatSVGIcon("plus-solid-light.svg", 10,10));
+        btnSubstraction.setIcon(new FlatSVGIcon("minus-solid-light.svg", 10, 10));
 
-            }
+        btnAddition.addActionListener(e -> {
+
+            String s1 = textField1.getText();
+            int a = Integer.parseInt(s1);
+
+            String s2 = textField2.getText();
+            int b = Integer.parseInt(s2);
+
+            int c = a + b;
+
+            String result = String.valueOf(c);
+
+            textFieldResult.setText(result);
+        });
+
+        btnSubstraction.addActionListener(e -> {
+
+            String s1 = textField1.getText();
+            int a = Integer.parseInt(s1);
+
+            String s2 = textField2.getText();
+            int b = Integer.parseInt(s2);
+
+            int c = a - b;
+
+            String result = String.valueOf(c);
+
+            textFieldResult.setText(result);
         });
     }
 
