@@ -1,4 +1,4 @@
-package org.example.src.jlabel;
+package org.example.src.jlabel2;
 
 import com.formdev.flatlaf.FlatDarculaLaf;
 import com.formdev.flatlaf.extras.FlatSVGIcon;
