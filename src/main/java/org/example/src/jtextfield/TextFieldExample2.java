@@ -1,4 +1,4 @@
-package org.example.src.jtextfield3;
+package org.example.src.jtextfield;
 
 import com.formdev.flatlaf.FlatDarculaLaf;
 import com.formdev.flatlaf.extras.FlatSVGIcon;

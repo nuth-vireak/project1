@@ -1,4 +1,4 @@
-package org.example.src.jbutton1;
+package org.example.src.jbutton;
 
 import com.formdev.flatlaf.FlatDarculaLaf;
 
